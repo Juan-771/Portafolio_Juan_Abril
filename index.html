@@ -1,12 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio_Juan_Abril</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Juan Jose</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+
 <body>
-    
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="presentacion" class="jumbotron">
+        <div class="container">
+            <h1 class="hero-title_load-hidden">
+                Hola, mi nombre es <span class="text-color-main">Juan Jose Abril</span>
+                <br />
+                Soy desarrollador de software.
+            </h1>
+            <p class="hero-cta_load-hidden">
+                <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#mio">Saber más</a>
+            </p>
+        </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="mio">
+        <div class="contenedor">
+            <h2 class="titulo">Sobre mí...</h2>
+
+            <div class="about-wrapper">
+                <div class="imagen-box">
+                    <img src="assets/profile.jpg" alt="Foto de perfil" class="imagen-perfil">
+                </div>
+
+                <div class="info-box">
+                    <p class="texto">
+                        Soy un desarrollador de software. Me motiva convertir ideas en productos funcionales y
+                        atractivos, con especial
+                        atención a la experiencia de usuario. <br>
+                        He trabajado con tecnologías como HTML, CSS y JavaScript, y MongoDB. Me considero
+                        una persona Lider, proactiva y siempre dispuesto a aprender. <br>
+                        Fuera del mundo de la tecnología, soy un apasionado del deporte. Me gusta mantenerme activo
+                        practicando baloncesto y boxeo, lo cual me ha enseñado disciplina, constancia y trabajo en
+                        equipo. Mi objetivo es seguir creciendo profesionalmente, formar parte de
+                        equipos dinámicos y contribuir en proyectos reales que impacten positivamente.
+                    </p>
+                    <a href="assets/resume.pdf" target="_blank" class="btn-cv">Ver CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+        <div class="container">
+            <div class="project-wrapper">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="project">
+                    <div class="project-text">
+                        <h3>Project Title 0</h3>
+                        <p>
+                            Describe the project being very specific, you can use the Twitter standard: no more than 280
+                            characters:
+                            complement the information: the skills learned or reinforced in its realization and how you
+                            faced it,
+                            prove to be proactive in the search for solutions.
+                        </p>
+                        <a class="btn" href="#" target="_blank">See Live</a>
+                        <a class="btn secondary" href="#" target="_blank">Source Code</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/project.jpg" alt="Project Image">
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-text">
+                        <h3>Project Title 1</h3>
+                        <p>
+                            Demonstrate in this description the skills of a programmer: such as having commitment,
+                            having perseverance and accepting alternative solutions. Remember that being a portfolio you
+                            are not selling the project,
+                            you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms,
+                            etc.
+                        </p>
+                        <a class="btn" href="#" target="_blank">See Live</a>
+                        <a class="btn secondary" href="#" target="_blank">Source Code</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/project.jpg" alt="Project Image">
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-text">
+                        <h3>Project Title 2</h3>
+                        <p>
+                            If the project was collaborative, reflect it in this description, that will demonstrate
+                            communication and/or leadership skills.
+                            Additionally, if you made use of the mastery of a second language, it will reflect on you
+                            professionalism.
+                        </p>
+                        <a class="btn" href="#" target="_blank">See Live</a>
+                        <a class="btn secondary" href="#" target="_blank">Source Code</a>
+                    </div>
+                    <div class="project-image">
+                        <img src="assets/project.jpg" alt="Project Image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-wrapper load-hidden">
+                <p class="contact-wrapper__text">[Put your call to action here]</p>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:example@email.com">Call
+                    to Action</a>
+            </div>
+        </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+        <div class="container">
+            <a rel="noreferrer" href="#top" class="back-to-top">
+                <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+            </a>
+            <div class="social-links">
+                <a rel="noreferrer" href="#!" target="_blank">
+                    <i class="fa fa-twitter fa-inverse"></i>
+                </a>
+                <a rel="noreferrer" href="#!" target="_blank">
+                    <i class="fa fa-linkedin fa-inverse"></i>
+                </a>
+                <a rel="noreferrer" href="#!" target="_blank">
+                    <i class="fa fa-github fa-inverse"></i>
+                </a>
+            </div>
+
+            <hr />
+
+
+
+            <script defer type="module" src="index.js"></script>
 </body>
+
 </html>
