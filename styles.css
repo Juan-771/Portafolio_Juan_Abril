@@ -1,3 +1,4 @@
+
 /*Estilizacion del scrollbar*/
 
 /* Aplica a toda la página */
@@ -61,7 +62,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 600px;
+    height: 1080px;
     background-color: #00b4b4;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%, 0 100%);
     z-index: -1;
@@ -74,7 +75,7 @@ body {
 
 .hero-title_load-hidden {
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
     margin-top: 150px;
     animation-delay: 0.3s;
 }
@@ -83,7 +84,7 @@ body {
     display: inline-block;
     padding: 12px 24px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 60px;
     font-weight: 600;
     color: #00c9c8;
     border: 2px solid #00c9c8;
@@ -136,13 +137,13 @@ html {
 
 /* Contenedor centrado */
 .contenedor {
-    max-width: 1150px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
 /* Título */
 .titulo {
-    font-size: 48px;
+    font-size: 98px;
     text-align: center;
     color: white;
     margin-top: -150px;
@@ -153,7 +154,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 60px;
     flex-wrap: wrap;
     /* para que se acomode en móvil */
 }
@@ -166,7 +167,7 @@ html {
 
 .imagen-perfil {
     max-width: 100%;
-    width: 300px;
+    width: 1000px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
@@ -177,9 +178,9 @@ html {
 }
 
 .texto {
-    font-size: 19px;
-    max-width: 550px;
-    padding-left: 10px;
+    font-size: 35px;
+    max-width: 850px;
+    padding-left:10px;
     margin-left: 0;
     color: black;
     margin-top: -20px;
@@ -188,12 +189,12 @@ html {
 .btn-cv {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00b4b4;
-    color: white;
+    background-color: white;
+    color:  #00b4b4;
     text-decoration: none;
     border-radius: 6px;
     transition: background-color 0.3s;
-    font-size: 22px;
+    font-size: 45px;
 }
 
 .btn-cv:hover {
@@ -218,7 +219,8 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    width: 1920px;
+    height: 1080px;
     margin: 0 auto;
 }
 
@@ -406,3 +408,5 @@ hr {
 .project-image:hover .hover-image {
     transform: scale(1.1);
 }
+
+
